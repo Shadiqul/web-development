@@ -1,0 +1,97 @@
+:root {
+  --project-light: #e7f2fc;
+}
+
+.h_100 {
+  height: 100vh;
+}
+
+.bg_light {
+  background: var(--project-light) !important;
+}
+
+.card_width {
+  margin-left: 90px;
+  max-width: 420px;
+}
+.fotter_border_bottom {
+  width: 80px;
+  height: 1px;
+  background: blue;
+}
+.links {
+  list-style: none;
+  padding-left: 0 !important;
+}
+.links li {
+  text-decoration: none;
+  padding-bottom: 8px;
+}
+.links li a {
+  text-decoration: none;
+}
+
+#login .login_img {
+  transform: scaleX(-1);
+}
+
+#login a {
+  text-decoration: none !important;
+}
+#login a:hover {
+  text-decoration: underline !important;
+}
+
+#home .padding {
+  padding: 60px 60px;
+  padding-left: 100px;
+}
+#home .card-img-top {
+  transform: scale(1);
+  transition: 0.3s all ease-in-out;
+}
+
+#home .card-img-top:hover {
+  transform: scale(0.93);
+  transition: 0.3s all ease-in-out;
+}
+
+#home .carosel_heading {
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 8px 15px;
+  border-radius: 20px;
+  text-decoration: none;
+}
+#home .carosel_heading:hover {
+  color: rgba(0, 0, 255, 0.904);
+  cursor: pointer;
+}
+#home .crd_heading {
+  text-align: center;
+  font-size: 18px;
+}
+#home .img_wrapper {
+  height: 100px;
+  width: 100px;
+  overflow: hidden;
+}
+#home .img_wrapper:hover {
+  transform: scale(1.1);
+  transition: 3s all ease-out;
+}
+
+@media screen and (max-width: 768px) {
+  .card_width {
+    margin-left: 0px;
+    max-width: 100%;
+  }
+  .order1 {
+    order: 2;
+    height: auto !important;
+    transform: translateY(-100px);
+  }
+  .order2 {
+    order: 1;
+  }
+}
